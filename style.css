@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f4f7;
+  margin: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  background: #1e40af;
+  color: white;
+  padding: 30px 20px;
+  border-radius: 8px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+section {
+  background: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+form {
+  display: grid;
+  gap: 15px;
+}
+
+input, select, button {
+  padding: 10px;
+  font-size: 14px;
+}
+
+button {
+  background: #1e40af;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:disabled {
+  background: #999;
+}
+
+.pesan {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.list {
+  margin-top: 15px;
+}
+
+.list div {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.info {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.info div {
+  flex: 1;
+}
+
+@media (max-width: 600px) {
+  .info {
+    flex-direction: column;
+  }
+}

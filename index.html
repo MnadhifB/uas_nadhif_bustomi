@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seminar Teknologi Kampus</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <h1>Seminar Teknologi Kampus</h1>
+    <p>Seminar pengembangan teknologi dan inovasi digital</p>
+    <div class="info">
+      <div><strong>Tanggal:</strong> 20 Februari 2026</div>
+      <div><strong>Lokasi:</strong> Aula Kampus</div>
+    </div>
+  </header>
+
+  <section>
+    <h2>Form Pendaftaran</h2>
+    <form id="form">
+      <input type="text" id="nama" placeholder="Nama Lengkap">
+      <input type="text" id="email" placeholder="Email">
+      <input type="text" id="hp" placeholder="Nomor HP">
+      <select id="kategori">
+        <option value="">Pilih Kategori</option>
+        <option value="Mahasiswa">Mahasiswa</option>
+        <option value="Umum">Umum</option>
+      </select>
+      <button type="submit">Daftar</button>
+    </form>
+    <div class="pesan" id="pesan"></div>
+  </section>
+
+  <section>
+    <h2>Peserta Terdaftar (<span id="jumlah">0</span>/50)</h2>
+    <div class="list" id="daftar"></div>
+  </section>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
